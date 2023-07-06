@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus-visible{
+    outline: 0;
+}
+
+.main{
+    background-color: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 6px rgb(189, 167, 167);
+    background-color: rgb(60, 180, 180);
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#pass-box{
+    width: 100%;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+}
+
+label{
+    user-select: none;
+}
+
+#btn{
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: rgb(45, 41, 35);
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
